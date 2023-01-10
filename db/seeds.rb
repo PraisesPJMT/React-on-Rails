@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+
+Message.create([
+  {greeting: "Good day everyone! This is React on Rails"},
+  {greeting: "React on Rails on rails is very fun and interesting"},
+  {greeting: "React is the most know frontend framework but I like svelt best."},
+  {greeting: "Front end is exciting, back end is powerfull and Full stack is god-mode!!"},
+  {greeting: "Ruby on rails seems exciting! It is the simplest backend framework out there"},
+])
